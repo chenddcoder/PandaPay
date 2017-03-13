@@ -1416,21 +1416,21 @@
                                         <state key="normal" backgroundImage="Edit"/>
                                     </button>
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vFb-9i-43q">
-                                        <frame key="frameInset" minX="53" minY="222" width="270" height="270"/>
+                                        <frame key="frameInset" minX="30" minY="222" width="300" height="270"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="aYI-k6-Ppj">
-                                            <size key="itemSize" width="80" height="80"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="aYI-k6-Ppj">
+                                            <size key="itemSize" width="90" height="90"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         </collectionViewFlowLayout>
                                         <cells>
-                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardFunctionCell" id="Mib-Te-WBP" customClass="CardFunctionCell">
-                                                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="" id="Mib-Te-WBP" customClass="CardFunctionCell">
+                                                <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                                    <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </view>
                                             </collectionViewCell>
@@ -1470,6 +1470,7 @@
                     <connections>
                         <outlet property="addCardBtn" destination="ChS-Nq-DgD" id="7Vr-6r-BV4"/>
                         <outlet property="cardDetailView" destination="vjA-dL-aY0" id="kcn-wl-1sT"/>
+                        <outlet property="cardFunctionCollectionView" destination="vFb-9i-43q" id="fIt-Ed-Xu1"/>
                         <outlet property="cardPlace" destination="hLP-al-6tt" id="uu0-Et-Reo"/>
                         <outlet property="shortIcon" destination="eH4-Ac-fMk" id="lLy-Jb-2rC"/>
                         <outlet property="tableView" destination="Sjq-bR-d7u" id="isj-IZ-ZPB"/>

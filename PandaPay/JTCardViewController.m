@@ -19,11 +19,12 @@
 @property (weak, nonatomic) IBOutlet UIButton *addCardBtn;
 @property (weak, nonatomic) IBOutlet UIImageView *shortIcon;
 @property (weak, nonatomic) IBOutlet UIButton *toolKitBtn;
+@property (weak, nonatomic) IBOutlet UICollectionView *cardFunctionCollectionView;
 @property (nonatomic, strong) NSArray * cardFunctions;
 @end
 
 @implementation JTCardViewController
-
+static NSString * cellId=@"CardFunctionCell";
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
@@ -40,6 +41,8 @@
         self.cardDetailView.transform=CGAffineTransformMakeTranslation(0, self.cardDetailView.frame.size.height);
     }];
     self.cardFunctions=@[@"用户指南",@"网点查询",@"查询记录",@"充值",@"优惠活动",@"退卡、退资"];
+    //注册下cell
+    [self.cardFunctionCollectionView registerClass:[CardFunctionCell class] forCellWithReuseIdentifier:cellId];
 }
 //由于contentMode没有我们想要的效果，因此自定义图片裁剪
 //由于是卡片，希望卡片横向填满，上部顶头，因此 根据self.cardPlace.frame的宽高比切除图片下半截
@@ -155,7 +158,9 @@
 // The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     CardFunctionCell * cell=[collectionView dequeueReusableCellWithReuseIdentifier:@"CardFunctionCell" forIndexPath:indexPath];
-    cell.backgroundColor=[UIColor redColor];
+    if (!cell) {
+        cell=[[[NSBundle mainBundle] loadNibNamed:@"CardFunctionCell" owner:nil options:nil] firstObject];
+    }
     cell.functionLabel.text=self.cardFunctions[indexPath.row];
     return cell;
     

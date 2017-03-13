@@ -9,7 +9,13 @@
 #import "CardFunctionCell.h"
 
 @implementation CardFunctionCell
-
+-(instancetype)initWithFrame:(CGRect)frame{
+    self = [super initWithFrame:frame];
+    if (self) {
+        self = [[NSBundle mainBundle]loadNibNamed:@"CardFunctionCell" owner:self options:nil].lastObject;
+    }
+    return self;
+}
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
