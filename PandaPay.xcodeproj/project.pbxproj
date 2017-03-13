@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		420A9EFA1E6129080070D696 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 420A9EF91E6129080070D696 /* AVKit.framework */; };
+		420A9EFD1E61299D0070D696 /* PlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 420A9EFC1E61299D0070D696 /* PlayerViewController.m */; };
+		423398EA1E6FE7E800E56359 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 423398E91E6FE7E800E56359 /* CustomButton.m */; };
+		4263F5C41E60145D0010C71B /* GuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4263F5C31E60145D0010C71B /* GuideViewController.m */; };
+		4263F5C71E6015090010C71B /* 启动视频.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4263F5C61E6015090010C71B /* 启动视频.mp4 */; };
+		42778F1C1E68FB8900D6CFEF /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42778F1B1E68FB8900D6CFEF /* SettingViewController.m */; };
+		42778F1F1E694AC800D6CFEF /* FingerSignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42778F1E1E694AC800D6CFEF /* FingerSignViewController.m */; };
+		42778F211E694C3600D6CFEF /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42778F201E694C3600D6CFEF /* LocalAuthentication.framework */; };
+		428360661E6A9C1C00517F21 /* JTCardContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428360651E6A9C1C00517F21 /* JTCardContainerViewController.m */; };
+		4283606C1E6AA1CE00517F21 /* JTCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4283606B1E6AA1CE00517F21 /* JTCardViewController.m */; };
+		4283606F1E6AA2A200517F21 /* JTNoCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4283606E1E6AA2A100517F21 /* JTNoCardViewController.m */; };
+		428360731E6AAB4B00517F21 /* TicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 428360721E6AAB4B00517F21 /* TicketViewController.m */; };
+		42849A371E66B3A20096B134 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42849A361E66B3A20096B134 /* MenuViewController.m */; };
+		4290E18B1E762631002A5F83 /* CardFunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4290E1891E762631002A5F83 /* CardFunctionCell.m */; };
+		4290E18C1E762631002A5F83 /* CardFunctionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4290E18A1E762631002A5F83 /* CardFunctionCell.xib */; };
+		429E486F1E5FC22200A1F011 /* BenefitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E486D1E5FC22200A1F011 /* BenefitViewController.m */; };
+		429E48771E5FEC5400A1F011 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E48761E5FEC5400A1F011 /* LoginViewController.m */; };
+		429E48791E5FF4A800A1F011 /* UnderLineTextField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 429E48781E5FF4A800A1F011 /* UnderLineTextField.xib */; };
+		429E487C1E5FF4C900A1F011 /* UnderLineTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E487B1E5FF4C900A1F011 /* UnderLineTextField.m */; };
+		429E487F1E5FFBD900A1F011 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E487E1E5FFBD900A1F011 /* RegisterViewController.m */; };
+		429E48821E6003CA00A1F011 /* VerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E48811E6003CA00A1F011 /* VerifyCodeViewController.m */; };
+		429E48851E60047900A1F011 /* LoginNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429E48841E60047900A1F011 /* LoginNavigationController.m */; };
+		42ABEED11E5EB16500DE60DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ABEED01E5EB16500DE60DC /* main.m */; };
+		42ABEED41E5EB16500DE60DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ABEED31E5EB16500DE60DC /* AppDelegate.m */; };
+		42ABEED71E5EB16500DE60DC /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42ABEED61E5EB16500DE60DC /* MainViewController.m */; };
+		42ABEEDA1E5EB16500DE60DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABEED81E5EB16500DE60DC /* Main.storyboard */; };
+		42ABEEDC1E5EB16500DE60DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42ABEEDB1E5EB16500DE60DC /* Assets.xcassets */; };
+		42ABEEDF1E5EB16500DE60DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42ABEEDD1E5EB16500DE60DC /* LaunchScreen.storyboard */; };
+		42C01B151E70FDE8006FBE06 /* SetPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C01B141E70FDE8006FBE06 /* SetPassViewController.m */; };
+		42C01B181E70FE13006FBE06 /* RepeatPassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C01B171E70FE13006FBE06 /* RepeatPassViewController.m */; };
+		42E0B2551E6504E1003DEEEA /* DDNavigationBarMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0B2541E6504E1003DEEEA /* DDNavigationBarMenu.m */; };
+		42E0B2571E6524B6003DEEEA /* BenefitView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E0B2561E6524B6003DEEEA /* BenefitView.xib */; };
+		42E0B25A1E65351A003DEEEA /* BenefitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0B2591E65351A003DEEEA /* BenefitView.m */; };
+		42E0B25D1E654584003DEEEA /* BenefitMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0B25C1E654584003DEEEA /* BenefitMenu.m */; };
+		42E0B28B1E656E10003DEEEA /* ContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E0B28A1E656E10003DEEEA /* ContainerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		420A9EF91E6129080070D696 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		420A9EFB1E61299D0070D696 /* PlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerViewController.h; sourceTree = "<group>"; };
+		420A9EFC1E61299D0070D696 /* PlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerViewController.m; sourceTree = "<group>"; };
+		423398E81E6FE7E800E56359 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		423398E91E6FE7E800E56359 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		4263F5C21E60145D0010C71B /* GuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuideViewController.h; sourceTree = "<group>"; };
+		4263F5C31E60145D0010C71B /* GuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuideViewController.m; sourceTree = "<group>"; };
+		4263F5C61E6015090010C71B /* 启动视频.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "启动视频.mp4"; sourceTree = "<group>"; };
+		42778F1A1E68FB8900D6CFEF /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		42778F1B1E68FB8900D6CFEF /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		42778F1D1E694AC800D6CFEF /* FingerSignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FingerSignViewController.h; sourceTree = "<group>"; };
+		42778F1E1E694AC800D6CFEF /* FingerSignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FingerSignViewController.m; sourceTree = "<group>"; };
+		42778F201E694C3600D6CFEF /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		428360641E6A9C1C00517F21 /* JTCardContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCardContainerViewController.h; sourceTree = "<group>"; };
+		428360651E6A9C1C00517F21 /* JTCardContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCardContainerViewController.m; sourceTree = "<group>"; };
+		4283606A1E6AA1CE00517F21 /* JTCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTCardViewController.h; sourceTree = "<group>"; };
+		4283606B1E6AA1CE00517F21 /* JTCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTCardViewController.m; sourceTree = "<group>"; };
+		4283606D1E6AA2A100517F21 /* JTNoCardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTNoCardViewController.h; sourceTree = "<group>"; };
+		4283606E1E6AA2A100517F21 /* JTNoCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTNoCardViewController.m; sourceTree = "<group>"; };
+		428360711E6AAB4B00517F21 /* TicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketViewController.h; sourceTree = "<group>"; };
+		428360721E6AAB4B00517F21 /* TicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketViewController.m; sourceTree = "<group>"; };
+		42849A351E66B3A20096B134 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		42849A361E66B3A20096B134 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		4290E1881E762631002A5F83 /* CardFunctionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardFunctionCell.h; sourceTree = "<group>"; };
+		4290E1891E762631002A5F83 /* CardFunctionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardFunctionCell.m; sourceTree = "<group>"; };
+		4290E18A1E762631002A5F83 /* CardFunctionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardFunctionCell.xib; sourceTree = "<group>"; };
+		429E486C1E5FC22200A1F011 /* BenefitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenefitViewController.h; sourceTree = "<group>"; };
+		429E486D1E5FC22200A1F011 /* BenefitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenefitViewController.m; sourceTree = "<group>"; };
+		429E48721E5FDB7600A1F011 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		429E48731E5FDC8100A1F011 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		429E48741E5FDC8100A1F011 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		429E48751E5FEC5400A1F011 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		429E48761E5FEC5400A1F011 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		429E48781E5FF4A800A1F011 /* UnderLineTextField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnderLineTextField.xib; sourceTree = "<group>"; };
+		429E487A1E5FF4C900A1F011 /* UnderLineTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnderLineTextField.h; sourceTree = "<group>"; };
+		429E487B1E5FF4C900A1F011 /* UnderLineTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnderLineTextField.m; sourceTree = "<group>"; };
+		429E487D1E5FFBD900A1F011 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		429E487E1E5FFBD900A1F011 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		429E48801E6003CA00A1F011 /* VerifyCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerifyCodeViewController.h; sourceTree = "<group>"; };
+		429E48811E6003CA00A1F011 /* VerifyCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerifyCodeViewController.m; sourceTree = "<group>"; };
+		429E48831E60047900A1F011 /* LoginNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginNavigationController.h; sourceTree = "<group>"; };
+		429E48841E60047900A1F011 /* LoginNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginNavigationController.m; sourceTree = "<group>"; };
+		42ABEECC1E5EB16500DE60DC /* PandaPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42ABEED01E5EB16500DE60DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42ABEED21E5EB16500DE60DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42ABEED31E5EB16500DE60DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42ABEED51E5EB16500DE60DC /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		42ABEED61E5EB16500DE60DC /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		42ABEED91E5EB16500DE60DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42ABEEDB1E5EB16500DE60DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42ABEEDE1E5EB16500DE60DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42ABEEE01E5EB16500DE60DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C01B131E70FDE8006FBE06 /* SetPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetPassViewController.h; sourceTree = "<group>"; };
+		42C01B141E70FDE8006FBE06 /* SetPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetPassViewController.m; sourceTree = "<group>"; };
+		42C01B161E70FE13006FBE06 /* RepeatPassViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatPassViewController.h; sourceTree = "<group>"; };
+		42C01B171E70FE13006FBE06 /* RepeatPassViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatPassViewController.m; sourceTree = "<group>"; };
+		42E0B2531E6504E1003DEEEA /* DDNavigationBarMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNavigationBarMenu.h; sourceTree = "<group>"; };
+		42E0B2541E6504E1003DEEEA /* DDNavigationBarMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNavigationBarMenu.m; sourceTree = "<group>"; };
+		42E0B2561E6524B6003DEEEA /* BenefitView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BenefitView.xib; sourceTree = "<group>"; };
+		42E0B2581E65351A003DEEEA /* BenefitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenefitView.h; sourceTree = "<group>"; };
+		42E0B2591E65351A003DEEEA /* BenefitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenefitView.m; sourceTree = "<group>"; };
+		42E0B25B1E654584003DEEEA /* BenefitMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BenefitMenu.h; sourceTree = "<group>"; };
+		42E0B25C1E654584003DEEEA /* BenefitMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BenefitMenu.m; sourceTree = "<group>"; };
+		42E0B2891E656E10003DEEEA /* ContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContainerViewController.h; sourceTree = "<group>"; };
+		42E0B28A1E656E10003DEEEA /* ContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContainerViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42ABEEC91E5EB16500DE60DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42778F211E694C3600D6CFEF /* LocalAuthentication.framework in Frameworks */,
+				420A9EFA1E6129080070D696 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		420A9EF81E6129070070D696 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42778F201E694C3600D6CFEF /* LocalAuthentication.framework */,
+				420A9EF91E6129080070D696 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4263F5C51E6014FD0010C71B /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				4263F5C61E6015090010C71B /* 启动视频.mp4 */,
+			);
+			name = "视频";
+			sourceTree = "<group>";
+		};
+		428360631E6A9BFF00517F21 /* 交通卡 */ = {
+			isa = PBXGroup;
+			children = (
+				428360641E6A9C1C00517F21 /* JTCardContainerViewController.h */,
+				428360651E6A9C1C00517F21 /* JTCardContainerViewController.m */,
+				4283606A1E6AA1CE00517F21 /* JTCardViewController.h */,
+				4283606B1E6AA1CE00517F21 /* JTCardViewController.m */,
+				4283606D1E6AA2A100517F21 /* JTNoCardViewController.h */,
+				4283606E1E6AA2A100517F21 /* JTNoCardViewController.m */,
+			);
+			name = "交通卡";
+			sourceTree = "<group>";
+		};
+		428360701E6AAB2800517F21 /* 卡票券 */ = {
+			isa = PBXGroup;
+			children = (
+				428360711E6AAB4B00517F21 /* TicketViewController.h */,
+				428360721E6AAB4B00517F21 /* TicketViewController.m */,
+			);
+			name = "卡票券";
+			sourceTree = "<group>";
+		};
+		42849A311E6677D60096B134 /* 我的菜单 */ = {
+			isa = PBXGroup;
+			children = (
+				42E0B2891E656E10003DEEEA /* ContainerViewController.h */,
+				42E0B28A1E656E10003DEEEA /* ContainerViewController.m */,
+				42849A351E66B3A20096B134 /* MenuViewController.h */,
+				42849A361E66B3A20096B134 /* MenuViewController.m */,
+				42778F1A1E68FB8900D6CFEF /* SettingViewController.h */,
+				42778F1B1E68FB8900D6CFEF /* SettingViewController.m */,
+				42778F1D1E694AC800D6CFEF /* FingerSignViewController.h */,
+				42778F1E1E694AC800D6CFEF /* FingerSignViewController.m */,
+			);
+			name = "我的菜单";
+			sourceTree = "<group>";
+		};
+		42849A321E6677F90096B134 /* 注册登录 */ = {
+			isa = PBXGroup;
+			children = (
+				429E48751E5FEC5400A1F011 /* LoginViewController.h */,
+				429E48761E5FEC5400A1F011 /* LoginViewController.m */,
+				429E487D1E5FFBD900A1F011 /* RegisterViewController.h */,
+				429E487E1E5FFBD900A1F011 /* RegisterViewController.m */,
+				429E48801E6003CA00A1F011 /* VerifyCodeViewController.h */,
+				429E48811E6003CA00A1F011 /* VerifyCodeViewController.m */,
+				429E48831E60047900A1F011 /* LoginNavigationController.h */,
+				429E48841E60047900A1F011 /* LoginNavigationController.m */,
+				42C01B131E70FDE8006FBE06 /* SetPassViewController.h */,
+				42C01B141E70FDE8006FBE06 /* SetPassViewController.m */,
+				42C01B161E70FE13006FBE06 /* RepeatPassViewController.h */,
+				42C01B171E70FE13006FBE06 /* RepeatPassViewController.m */,
+			);
+			name = "注册登录";
+			sourceTree = "<group>";
+		};
+		42849A331E6678150096B134 /* 主页面 */ = {
+			isa = PBXGroup;
+			children = (
+				429E486C1E5FC22200A1F011 /* BenefitViewController.h */,
+				429E486D1E5FC22200A1F011 /* BenefitViewController.m */,
+				42ABEED51E5EB16500DE60DC /* MainViewController.h */,
+				42ABEED61E5EB16500DE60DC /* MainViewController.m */,
+			);
+			name = "主页面";
+			sourceTree = "<group>";
+		};
+		42849A341E66781E0096B134 /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				4263F5C21E60145D0010C71B /* GuideViewController.h */,
+				4263F5C31E60145D0010C71B /* GuideViewController.m */,
+				420A9EFB1E61299D0070D696 /* PlayerViewController.h */,
+				420A9EFC1E61299D0070D696 /* PlayerViewController.m */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		42ABEEC31E5EB16500DE60DC = {
+			isa = PBXGroup;
+			children = (
+				42ABEECE1E5EB16500DE60DC /* PandaPay */,
+				42ABEECD1E5EB16500DE60DC /* Products */,
+				420A9EF81E6129070070D696 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42ABEECD1E5EB16500DE60DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42ABEECC1E5EB16500DE60DC /* PandaPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42ABEECE1E5EB16500DE60DC /* PandaPay */ = {
+			isa = PBXGroup;
+			children = (
+				428360701E6AAB2800517F21 /* 卡票券 */,
+				428360631E6A9BFF00517F21 /* 交通卡 */,
+				42849A341E66781E0096B134 /* 引导页 */,
+				42849A331E6678150096B134 /* 主页面 */,
+				42849A321E6677F90096B134 /* 注册登录 */,
+				42849A311E6677D60096B134 /* 我的菜单 */,
+				42E0B2521E650004003DEEEA /* 自定义控件 */,
+				4263F5C51E6014FD0010C71B /* 视频 */,
+				42ABEED21E5EB16500DE60DC /* AppDelegate.h */,
+				42ABEED31E5EB16500DE60DC /* AppDelegate.m */,
+				42ABEED81E5EB16500DE60DC /* Main.storyboard */,
+				42ABEEDB1E5EB16500DE60DC /* Assets.xcassets */,
+				42ABEEDD1E5EB16500DE60DC /* LaunchScreen.storyboard */,
+				42ABEEE01E5EB16500DE60DC /* Info.plist */,
+				42ABEECF1E5EB16500DE60DC /* Supporting Files */,
+			);
+			path = PandaPay;
+			sourceTree = "<group>";
+		};
+		42ABEECF1E5EB16500DE60DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ABEED01E5EB16500DE60DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42E0B2521E650004003DEEEA /* 自定义控件 */ = {
+			isa = PBXGroup;
+			children = (
+				429E48781E5FF4A800A1F011 /* UnderLineTextField.xib */,
+				429E487A1E5FF4C900A1F011 /* UnderLineTextField.h */,
+				429E487B1E5FF4C900A1F011 /* UnderLineTextField.m */,
+				42E0B2531E6504E1003DEEEA /* DDNavigationBarMenu.h */,
+				42E0B2541E6504E1003DEEEA /* DDNavigationBarMenu.m */,
+				42E0B2561E6524B6003DEEEA /* BenefitView.xib */,
+				42E0B2581E65351A003DEEEA /* BenefitView.h */,
+				42E0B2591E65351A003DEEEA /* BenefitView.m */,
+				42E0B25B1E654584003DEEEA /* BenefitMenu.h */,
+				42E0B25C1E654584003DEEEA /* BenefitMenu.m */,
+				423398E81E6FE7E800E56359 /* CustomButton.h */,
+				423398E91E6FE7E800E56359 /* CustomButton.m */,
+				4290E1881E762631002A5F83 /* CardFunctionCell.h */,
+				4290E1891E762631002A5F83 /* CardFunctionCell.m */,
+				4290E18A1E762631002A5F83 /* CardFunctionCell.xib */,
+			);
+			name = "自定义控件";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42ABEECB1E5EB16500DE60DC /* PandaPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42ABEEE31E5EB16500DE60DC /* Build configuration list for PBXNativeTarget "PandaPay" */;
+			buildPhases = (
+				42ABEEC81E5EB16500DE60DC /* Sources */,
+				42ABEEC91E5EB16500DE60DC /* Frameworks */,
+				42ABEECA1E5EB16500DE60DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaPay;
+			productName = PandaPay;
+			productReference = 42ABEECC1E5EB16500DE60DC /* PandaPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42ABEEC41E5EB16500DE60DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = icfcc;
+				TargetAttributes = {
+					42ABEECB1E5EB16500DE60DC = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = AT5A68FVD8;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 42ABEEC71E5EB16500DE60DC /* Build configuration list for PBXProject "PandaPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42ABEEC31E5EB16500DE60DC;
+			productRefGroup = 42ABEECD1E5EB16500DE60DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42ABEECB1E5EB16500DE60DC /* PandaPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42ABEECA1E5EB16500DE60DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42ABEEDF1E5EB16500DE60DC /* LaunchScreen.storyboard in Resources */,
+				42ABEEDC1E5EB16500DE60DC /* Assets.xcassets in Resources */,
+				42E0B2571E6524B6003DEEEA /* BenefitView.xib in Resources */,
+				429E48791E5FF4A800A1F011 /* UnderLineTextField.xib in Resources */,
+				4263F5C71E6015090010C71B /* 启动视频.mp4 in Resources */,
+				4290E18C1E762631002A5F83 /* CardFunctionCell.xib in Resources */,
+				42ABEEDA1E5EB16500DE60DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42ABEEC81E5EB16500DE60DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42778F1F1E694AC800D6CFEF /* FingerSignViewController.m in Sources */,
+				4283606F1E6AA2A200517F21 /* JTNoCardViewController.m in Sources */,
+				42ABEED71E5EB16500DE60DC /* MainViewController.m in Sources */,
+				42ABEED41E5EB16500DE60DC /* AppDelegate.m in Sources */,
+				42C01B151E70FDE8006FBE06 /* SetPassViewController.m in Sources */,
+				428360661E6A9C1C00517F21 /* JTCardContainerViewController.m in Sources */,
+				42778F1C1E68FB8900D6CFEF /* SettingViewController.m in Sources */,
+				429E487C1E5FF4C900A1F011 /* UnderLineTextField.m in Sources */,
+				42849A371E66B3A20096B134 /* MenuViewController.m in Sources */,
+				429E486F1E5FC22200A1F011 /* BenefitViewController.m in Sources */,
+				4283606C1E6AA1CE00517F21 /* JTCardViewController.m in Sources */,
+				423398EA1E6FE7E800E56359 /* CustomButton.m in Sources */,
+				428360731E6AAB4B00517F21 /* TicketViewController.m in Sources */,
+				42E0B28B1E656E10003DEEEA /* ContainerViewController.m in Sources */,
+				42E0B25D1E654584003DEEEA /* BenefitMenu.m in Sources */,
+				429E48821E6003CA00A1F011 /* VerifyCodeViewController.m in Sources */,
+				42E0B25A1E65351A003DEEEA /* BenefitView.m in Sources */,
+				4290E18B1E762631002A5F83 /* CardFunctionCell.m in Sources */,
+				42C01B181E70FE13006FBE06 /* RepeatPassViewController.m in Sources */,
+				429E487F1E5FFBD900A1F011 /* RegisterViewController.m in Sources */,
+				42ABEED11E5EB16500DE60DC /* main.m in Sources */,
+				4263F5C41E60145D0010C71B /* GuideViewController.m in Sources */,
+				429E48771E5FEC5400A1F011 /* LoginViewController.m in Sources */,
+				420A9EFD1E61299D0070D696 /* PlayerViewController.m in Sources */,
+				42E0B2551E6504E1003DEEEA /* DDNavigationBarMenu.m in Sources */,
+				429E48851E60047900A1F011 /* LoginNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42ABEED81E5EB16500DE60DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ABEED91E5EB16500DE60DC /* Base */,
+				429E48721E5FDB7600A1F011 /* en */,
+				429E48731E5FDC8100A1F011 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42ABEEDD1E5EB16500DE60DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42ABEEDE1E5EB16500DE60DC /* Base */,
+				429E48741E5FDC8100A1F011 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42ABEEE11E5EB16500DE60DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42ABEEE21E5EB16500DE60DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42ABEEE41E5EB16500DE60DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ma Jian (9953G4MM3C)";
+				DEVELOPMENT_TEAM = AT5A68FVD8;
+				INFOPLIST_FILE = PandaPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icfcc.PandaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0045909-074b-4623-8485-af4082048e57";
+				PROVISIONING_PROFILE_SPECIFIER = PBOCPublicCert;
+			};
+			name = Debug;
+		};
+		42ABEEE51E5EB16500DE60DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Ma Jian (9953G4MM3C)";
+				DEVELOPMENT_TEAM = AT5A68FVD8;
+				INFOPLIST_FILE = PandaPay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.icfcc.PandaPay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "b0045909-074b-4623-8485-af4082048e57";
+				PROVISIONING_PROFILE_SPECIFIER = PBOCPublicCert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42ABEEC71E5EB16500DE60DC /* Build configuration list for PBXProject "PandaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ABEEE11E5EB16500DE60DC /* Debug */,
+				42ABEEE21E5EB16500DE60DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42ABEEE31E5EB16500DE60DC /* Build configuration list for PBXNativeTarget "PandaPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42ABEEE41E5EB16500DE60DC /* Debug */,
+				42ABEEE51E5EB16500DE60DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42ABEEC41E5EB16500DE60DC /* Project object */;
+}

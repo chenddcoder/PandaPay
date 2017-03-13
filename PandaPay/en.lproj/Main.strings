@@ -1,0 +1,12 @@
+
+/* Class = "UIViewController"; title = "卡惠"; ObjectID = "5MK-Xa-6VI"; */
+"5MK-Xa-6VI.title" = "卡惠";
+
+/* Class = "UISearchBar"; placeholder = "输入银行、品牌、活动等"; ObjectID = "ET5-0n-jF3"; */
+"ET5-0n-jF3.placeholder" = "输入银行、品牌、活动等";
+
+/* Class = "UIBarButtonItem"; title = "返回"; ObjectID = "fZo-8G-CqV"; */
+"fZo-8G-CqV.title" = "返回";
+
+/* Class = "UIButton"; normalTitle = "卡惠"; ObjectID = "xkV-4b-Rje"; */
+"xkV-4b-Rje.normalTitle" = "卡惠";
